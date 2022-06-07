@@ -1,0 +1,44 @@
+.container{
+    background: wheat;
+}
+header{
+    padding: 1.2% 0 1% 0;
+    margin: 1% 10%;
+}
+header div{
+    margin: 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+header .image{
+    width: 25%;
+}
+.avatar{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+header .text{
+    position: absolute;
+    width: 50%;
+}
+h2{
+    color: darkred;
+    font: 2rem "Roboto Light", sans-serif;
+}
+
+p{
+    color: darkred;
+    display: block;
+    font: 1rem "Roboto Light", sans-serif;
+}
+em{
+    color: darkred;
+    text-underline-position: under;
+    text-decoration: underline solid darkred 0.1rem;
+    font: italic 1rem "Roboto Light", sans-serif;
+}
+strong{
+    color: black;
+    font: bold 1rem "Roboto Light", sans-serif;
+}
