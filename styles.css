@@ -1,12 +1,14 @@
-.container{
-    background: wheat;
+body{
+    background: beige;
 }
 header{
-    padding: 1.2% 0 1% 0;
+    background: wheat;
+    padding: 2.5% 0.5% 2% 0.5%;
     margin: 1% 10%;
 }
 header div{
-    margin: 0;
+    margin: 1% 2%;
+    padding: 0.5%;
     display: inline-block;
     box-sizing: border-box;
 }
@@ -19,6 +21,7 @@ header .image{
     height: 100%;
 }
 header .text{
+    height: max-content;
     position: absolute;
     width: 50%;
 }
@@ -28,6 +31,7 @@ h2{
 }
 
 p{
+    line-height: 200%;
     color: darkred;
     display: block;
     font: 1rem "Roboto Light", sans-serif;
@@ -39,6 +43,13 @@ em{
     font: italic 1rem "Roboto Light", sans-serif;
 }
 strong{
-    color: black;
+    color: #681000;
     font: bold 1rem "Roboto Light", sans-serif;
+}
+section{
+    background: indianred;
+}
+
+footer{
+    background: cornflowerblue;
 }
