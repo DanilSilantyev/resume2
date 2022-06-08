@@ -6,36 +6,106 @@
     <meta name="keywords" content="resume, cvv, frontend developer, frontend, javascript, html, css, react, nodejs">
     <title>Danil Silantyev</title>
     <link rel="stylesheet" href="styles.css">
-    
+
 </head>
 <body>
 <div class="container">
     <header>
         <div class="image">
-        <img src="avatar.jpg" alt="avatar.jpg" class="avatar">
+            <img src="avatar.jpg" alt="avatar.jpg" class="avatar">
         </div>
         <div class="text">
             <h2>Данил Силантьев</h2>
-            <p> <em>Здравствуйте</em>, на данный момент я являюсь <strong>новичком</strong> в веб-раработке.</p>
+            <p><em>Здравствуйте</em>, на данный момент я являюсь <strong>новичком</strong> в веб-раработке.</p>
             <p><em>Изученный стек: Html, Css, JavaScript, NodeJS, AngularJS.</em></p>
-            <p>Помимо самообразования обучаюсь в <strong>университете ИТМО</strong> на программе <em>"Нейротехнологии и программирование"</em></p>
+            <p>Помимо самообразования обучаюсь в <strong>университете ИТМО</strong> на программе <em>"Нейротехнологии и
+                программирование"</em></p>
         </div>
     </header>
     <section>
         <article class="social">
-            <h2>My socials:</h2>
+            <h2>Мои социальные сети:</h2>
             <nav>
-                <a href="https://www.youtube.com/channel/UCGUu-JnXJQ3_8yw6vnFq7kQ" target="_blank" class="yt">YouTube</a>
+                <a href="https://www.youtube.com/channel/UCGUu-JnXJQ3_8yw6vnFq7kQ" target="_blank"
+                   class="yt">YouTube</a>
                 <a href="https://vk.com/danilkray" target="_blank" class="vk">Vkontakte</a>
             </nav>
         </article>
 
         <article class="hobby">
+            <h2>Мои увлечения:</h2>
+            <div class="list">
+                <ul>
+                    <li>Компьютерные игры</li>
+                    <ul>
+                        <li>Стратегии</li>
+                        <li>РПГ / приключения</li>
+                        <li>Симуляторы</li>
+                    </ul>
+                    <li>Фильмы / сериалы</li>
+                    <ul>
+                        <li>Детективы</li>
+                        <li>Криминалы</li>
+                        <li>Научная фантастика</li>
+                        <li>Комедии</li>
+                    </ul>
+                    <li>Фронтенд</li>
+                    <li>Создание курсов</li>
+                </ul>
+            </div>
+        </article>
 
+        <article class="table">
+            <table>
+                <thead>
+                <th>Название</th>
+                <th>Должность</th>
+                <th>Продолжительность</th>
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td>Гимназия №79</td>
+                    <td>Школьник</td>
+                    <td>2008-2019</td>
+                </tr>
+                <tr>
+                    <td>Академия "Шаг"</td>
+                    <td>Студент</td>
+                    <td>2016-2018</td>
+                </tr>
+                <tr>
+                    <td>GeekBrains</td>
+                    <td>Студент</td>
+                    <td>2019-2021</td>
+                </tr>
+                <tr>
+                    <td>Университет ИТМО</td>
+                    <td>Студент</td>
+                    <td>2020-TBD</td>
+                </tr>
+                <tr>
+                    <td>Онлайн курсы</td>
+                    <td>Студент</td>
+                    <td>2021-TBD</td>
+                </tr>
+                </tbody>
+            </table>
         </article>
     </section>
     <footer>
-
+        <h2>Связаться со мной:</h2>
+        <form action="text">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" placeholder="Введите ваше имя">
+            <label for="surname">Фамилия:</label>
+            <input type="text" id="surname" placeholder="Введите вашу фамилию">
+            <label for="tel">Номер телефона:</label>
+            <input type="tel" id="tel" placeholder="Введите ваш номер телефона">
+            <label for="msg">Сообщение:</label>
+            <textarea name="msg" id="msg" cols="20" rows="2" placeholder="Введите ваше сообщение"></textarea>
+            <button class="btn">Отправить</button>
+        </form>
     </footer>
 </div>
 </body>

@@ -1,95 +1,193 @@
-body{
+body {
     background: beige;
     padding: 2.5% 0.5% 2% 0.5%;
     margin: 1% 10%;
-
 }
 
-header{
+header {
     background: wheat;
-    border-radius: 10rem;
-
+    border-radius: 5rem 20rem 10rem 15rem;
+    border: 2px solid gold;
 }
-header div{
+
+header div {
     margin: 1% 2%;
     padding: 0.5%;
     display: inline-block;
     box-sizing: border-box;
 }
-header .image{
+
+header .image {
     width: 25%;
 
 }
-.avatar{
+
+.avatar {
     border-radius: 50%;
     width: 100%;
     height: 100%;
 }
-header .text{
+
+header .text {
 
     height: max-content;
     position: absolute;
     width: 50%;
 }
-h2{
+
+h2 {
     color: darkred;
     font: 2rem "Roboto Light", sans-serif;
 }
 
-p{
+p {
     line-height: 200%;
     color: darkred;
     display: block;
     font: 1rem "Roboto Light", sans-serif;
 }
-em{
+
+em {
     color: darkred;
     text-underline-position: under;
     text-decoration: underline solid darkred 0.1rem;
     font: italic 1rem "Roboto Light", sans-serif;
 }
-strong{
+
+strong {
     color: #681000;
     font: bold 1rem "Roboto Light", sans-serif;
 }
 
-.social h2{
+section h2, footer h2 {
+    text-align: center;
     padding-top: 2%;
     text-decoration: underline solid 0.175rem;
 }
-nav{
 
-padding: 0 5% 2% 5%;
+nav {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5% 2% 5%;
 }
 
-nav .yt{
+nav .yt {
     color: #681000;
 }
-nav .vk{
+
+nav .vk {
     color: blue;
 }
-a{
+
+a {
     text-decoration: none;
 
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
     color: blueviolet;
 }
-a:active{
+
+a:active {
     color: aqua;
 }
 
-article{
+article {
     opacity: 0.9;
     text-align: center;
 }
-.social{
-    background: #c7e3fd;
 
-    border-radius: 10rem;
+.social {
+    margin: 1.66rem 25%;
+    background: #c7e3fd;
+    border-radius: 15rem 5rem;
+    border: 2px solid blue;
+
 }
 
-footer{
-    background: cornflowerblue;
+.hobby {
+    margin: 1.66rem 25%;
+    background: #fdcadd;
+    border-radius: 5rem 15rem;
+    border: 2px solid hotpink;
+}
+
+.table {
+    margin: 1.66rem 15%;
+    padding: 3rem;
+    background: #c3fdcb;
+    border-radius: 15rem 5rem;
+    line-height: 1.5;
+    border: 2px solid green;
+}
+
+td, th, table {
+    padding: 0.1rem 1rem;
+    border-collapse: collapse;
+    border: 0.1rem solid darkgreen;
+}
+
+table {
+    margin: auto;
+}
+
+.list {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    font: 1rem "Roboto Light", sans-serif;
+    color: #681000;
+}
+
+label {
+    display: block;
+}
+
+footer {
+    margin: 1.66rem 0;
+    padding: 0 5rem 5rem 5rem;
+    background: #f3c7fd;
+    border-radius: 5rem 15rem;
+    border: 2px solid darkred;
+}
+
+input, textarea {
+    outline: none;
+    color: black;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    padding: 0.5rem 0;
+    border: none;
+    background: inherit;
+    border-bottom: 2px solid darkgrey;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+input:active, textarea:active {
+    background: lightgrey;
+    opacity: 0.6;
+}
+input:hover, textarea:hover{
+    border: 2px solid mediumpurple;
+    font-size: 150%;
+}
+.btn{
+    color: darkred;
+    opacity: 0.7;
+    font-size: 150%;
+    display: block;
+    float: right;
+    padding: 1rem 5rem;
+    border: 0.2rem solid lightgrey;
+    border-radius: 15rem;
+    background: azure;
+    font-family: inherit;
+}
+.btn:hover{
+color: blueviolet;
+    cursor: pointer;
+    border: 2px solid mediumpurple;
+    text-decoration: underline;
 }
