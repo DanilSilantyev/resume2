@@ -1,10 +1,14 @@
 body{
     background: beige;
-}
-header{
-    background: wheat;
     padding: 2.5% 0.5% 2% 0.5%;
     margin: 1% 10%;
+
+}
+
+header{
+    background: wheat;
+    border-radius: 10rem;
+
 }
 header div{
     margin: 1% 2%;
@@ -14,6 +18,7 @@ header div{
 }
 header .image{
     width: 25%;
+
 }
 .avatar{
     border-radius: 50%;
@@ -21,6 +26,7 @@ header .image{
     height: 100%;
 }
 header .text{
+
     height: max-content;
     position: absolute;
     width: 50%;
@@ -46,8 +52,42 @@ strong{
     color: #681000;
     font: bold 1rem "Roboto Light", sans-serif;
 }
-section{
-    background: indianred;
+
+.social h2{
+    padding-top: 2%;
+    text-decoration: underline solid 0.175rem;
+}
+nav{
+
+padding: 0 5% 2% 5%;
+}
+
+nav .yt{
+    color: #681000;
+}
+nav .vk{
+    color: blue;
+}
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+a:active{
+    color: aqua;
+}
+
+article{
+    opacity: 0.9;
+    text-align: center;
+}
+.social{
+    background: #c7e3fd;
+
+    border-radius: 10rem;
 }
 
 footer{
